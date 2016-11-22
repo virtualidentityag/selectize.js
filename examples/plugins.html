@@ -64,6 +64,21 @@
 			</div>
 
 			<div class="demo">
+				<h2>Plugin: "no_delete_on_backspace"</h2>
+				<div class="control-group">
+					<label for="input-tags7">Tags:</label>
+					<input type="text" id="input-tags7" class="demo-default" value="awesome,neat">
+				</div>
+				<script>
+				$('#input-tags7').selectize({
+					plugins: ['no_delete_on_backspace'],
+					persist: false,
+					create: true
+				});
+				</script>
+			</div>
+
+			<div class="demo">
 				<h2>Plugin: "drag_drop"</h2>
 				<div class="control-group">
 					<label for="input-sortable">Tags:</label>
